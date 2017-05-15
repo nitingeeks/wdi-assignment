@@ -1,0 +1,23 @@
+{
+  "name": "wdi-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitingeeks/wdi-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitingeeks/wdi-assignment/issues"
+  },
+  "homepage": "https://github.com/nitingeeks/wdi-assignment#readme"
+}

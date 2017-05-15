@@ -1,0 +1,93 @@
+<!-- 
+ 
+Topic :- World Development Indicators - Life Expectancy
+Data Source :- Indicators.csv
+
+	Part 1: Data Munging
+		Write a Nodejs program that converts the csv file into a json file that will be used to plot data in part 2. You have to come up with an optimal schema for the json file based on the requirements of Part 2.
+
+	Part 2: Data Visualization with D3.js
+		1   Make a stacked bar chart of the following data cumulated for Asian countries over the years supplied (1960 - 2015)
+		    Life expectancy at birth, female (years)
+		    Life expectancy at birth, male (years)
+
+		2.  Make a multi-series line chart of India over the years supplied (1960 - 2015)
+		    Birth rate, crude (per 1,000 people)
+		    Death rate, crude (per 1,000 people)
+
+		3.  Make a bar chart of Top 5 countries with highest Life expectancy at birth, total (years) in   the given time period of 1960 - 2015
+
+# Subject :- Assignment 3
+# Author :- Nitin Joshi
+
+Points
+	1. Convert CSV to JSON according to given conditon.
+	2. Used converted Json to ploted viualization graph	(By using D3.js)
+
+
+ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 3 - World Development Indicators - Life Expectancy</title>
+	<meta charset="utf-8">	
+	<style type="text/css">
+		table {
+			    margin: 100px auto 0;
+			    border-left: 2px solid #666;
+			    border-right: 1px solid #666;
+			    border-bottom: 1px solid #666;
+    			border-top: 2px solid #666;
+    			border-spacing: 0;
+		}
+		table tr {
+			padding: 0;
+			margin: 0;
+			
+		}
+		td, th{
+			border-bottom: 1px solid #666;
+			border-right :1px solid #666;
+			padding: 20px;
+    color: #333;
+		}
+		a {color: #333; text-decoration: none}
+		a:hover {text-decoration: underline;}
+	</style>
+</head>
+<body>
+	<table   >
+		<thead>
+			<tr>
+				<th colspan="3"><h1>World Development Indicators - Life Expectancy</h1></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Make a stacked bar chart of the following data cumulated for Asian countries over the years supplied (1960 - 2015)
+		    		<br />Life expectancy at birth, female (years)
+		    		<br />Life expectancy at birth, male (years)
+		    	</td>
+		    	<td><a href="./test/stackedbarChart.html">Stacked Bar Chart</a></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Make a multi-series line chart of India over the years supplied (1960 - 2015)
+			    	<br />Birth rate, crude (per 1,000 people)
+		    		<br />Death rate, crude (per 1,000 people)
+		    	</td>
+		    	<td><a href="./test/multiseriesChart.html">Multi Series Chart</a></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Make a bar chart of Top 5 countries with highest Life expectancy at birth, total (years) in   the given time period of 1960 - 2015
+		    	</td>
+		    	<td><a href="./test/barChart.html">Bar Chart</a></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
